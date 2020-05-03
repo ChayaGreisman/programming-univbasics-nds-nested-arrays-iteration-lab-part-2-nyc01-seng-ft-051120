@@ -31,9 +31,9 @@ def find_min_in_nested_arrays(src)
        
        if min_value > src[row_index][element_index]
        min_value = src[row_index][element_index]
-       
-       end
        outer_results << min_value
+       end
+       
        element_index += 1
        
      end
